@@ -1,16 +1,13 @@
 <?php
 
 class Configuracion {
-    // Definición de propiedades estáticas
     public static $color;
     public static $newsletter;
     public static $entorno;
 
-    // Getters y setters estáticos
     public static function getColor() {
-        return self::$color; // Se usa self:: para hacer referencia a las propiedades estáticas de la misma clase
+        return self::$color; 
     }
-
     public static function setColor($color) {
         self::$color = $color;
     }
